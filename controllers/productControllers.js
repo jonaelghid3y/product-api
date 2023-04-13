@@ -29,6 +29,7 @@ module.exports.createProduct = async(req, res) =>{
 
             title: req.body.title,
             description: req.body.description,
+            releaseyear: req.body.releaseyear,
             price: req.body.price,
             stock: req.body.stock,
             category: req.body.category,
@@ -65,6 +66,7 @@ module.exports.uppdateProduct = async(req , res) => {
 
             title: req.body.title,
             description: req.body.description,
+            releaseyear: req.body.releaseyear,
             price: req.body.price,
             stock: req.body.stock,
             category: req.body.category,
